@@ -24,9 +24,26 @@ namespace PruebasNet4._7._2
         }
     }
 }
+
+
+
+
+
+
+
+
+//CLASE MATRIZ
+//
+//
+//
+/// <summary>
+/// ////////////////////////////////////////////////////
+/// </summary>
 class Matriz
 {
     int[,] x = new int[3, 3];
+
+    //CONSTRUCTORES
     public Matriz()
     {
         rellenarAleatorio();
@@ -44,6 +61,10 @@ class Matriz
     {
         calcular(a, b);
     }
+
+
+
+    //MÉTODOS
     public void rellenarAleatorio()
     {
         Random rnd = new Random();
@@ -138,6 +159,16 @@ class Matriz
             }
         }
     }
+
+
+
+
+
+
+
+
+
+    //GETTERS AND SETTERS
     public int[,] getX()
     {
         return x;
